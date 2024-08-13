@@ -5,7 +5,7 @@ const userRoutes=require("./routes/userRoutes")
 const cartRoutes=require("./routes/cartRotue")
 const OrderRotue=require("./routes/orderRoute")
 const mongoose=require("mongoose");
-const cors = require('cors');
+const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 mongoose.connect("mongodb+srv://Nithiya:Nithiya@cluster0.sqsmwtu.mongodb.net/e_commerce").then(()=>{
